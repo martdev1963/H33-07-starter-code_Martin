@@ -25,6 +25,7 @@
             <p><button id="oak">Oak</button></p>
             <p><button id="beech">Beech</button></p>
             <p><button id="cherry">Cherry</button></p>
+            <p><button id="fir">Fir</button></p>
 
         </div>
         <div class="content">
@@ -37,6 +38,7 @@
             <iframe  id="i_summary" src="oak_summary.html">
             </iframe>
         </div>
+        
 
     </div>
 
@@ -57,6 +59,10 @@
         $("#cherry").click(function(){
             $("#i_content").attr("src","cherry_content.html");
             $("#i_summary").attr("src","cherry_summary.html");
+        })
+        $("#fir").click(function(){
+            $("#i_content").attr("src","fir_content.html");
+            $("#i_summary").attr("src","fir_summary.html");
         })
 
         /* This will not be merged !  */
